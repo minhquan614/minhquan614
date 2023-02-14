@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Phiếu khảo sát</h1>
+    <table border="2" width="550">
+    <tr>
+        <th>Họ tên</th>
+        <td>
+        <input type="text" name="Họ tên">
+        <td>
+    </tr>
+    <tr>    
+        <th>Màu yêu thích</th>
+        <td>
+            <input type="color" name="color">
+        </td>
+    </tr>
+    <tr>    
+        <th>Ngày sinh</th>
+        <td> 
+            <input type="date" name="day">
+        </td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>
+            <input type="text" name="Email">
+        </td>
+    </tr>
+    <tr>
+        <th>Nghành nghề</th>
+        <td>
+            <input type="text" name="Nghành nghề">
+        </td>
+    </tr>
+    <tr>        
+        <th>Wesite</th>
+    <td>
+            <input type="text" name="Wesite">
+    </td>
+    </tr>
+    <tr>
+        <th>Con số yêu thích(1-9)</th>
+        <td> 
+        <input type="text" name="Con số yêu thích(1-9)">
+        </td>
+    </tr>
+    <tr>
+        <th>Thu nhập</th>
+        <td>
+            <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+                100(USD)<input type="range" id="a" min="100" max="1000">1.000(USD)
+                <br>
+                * Tỉ giá <input type="number" id="b" value="25000">
+                =<output name="x" for="a*b"></output>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <th>
+            <button type="button" onclick="alert('Đã gửi thành công')">Gửi đi</button>
+            <button type="button" onclick="alert('Xóa thành công')">Xóa hết</button>
+        </th>
+    </tr>
+    </table>
+</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+}
+.noidung 
+{
+    width: 200px;
+    border: 1px solid gray;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+.noidung p
+{
+    font-style: italic;
+    font-size: 200%;
+}
+.vanban 
+{
+    text-align:  justify;
+}
